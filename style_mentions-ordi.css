@@ -35,23 +35,8 @@ header a:first-child {
     margin-left: 0;
 }
 
-/* main {
-    scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y mandatory;
-} */
-
-/* .child {
-    scroll-snap-align: start;
-} */
-
 .main {
-    background: none;
-    display: flex;
-    align-items: center;
-    justify-items: space-around;
     margin: 0 50px 0 50px;
-    text-align: unset;
 }
 
 .main>img:nth-child(1) {
