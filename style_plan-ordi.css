@@ -1,0 +1,48 @@
+body {
+    /* overflow: hidden; */
+}
+
+label {
+    display: none;
+}
+
+header {
+    font-size: larger;
+    transform: translate(0);
+    display: flex;
+    justify-content: center;
+    background: none;
+    position: initial;
+}
+
+header a {
+    margin-left: 30px;
+    position: relative;
+}
+
+header a:hover:before {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    left: 19%;
+    bottom: -3px;
+    height: 15px;
+    width: 70%;
+    border-bottom: 3px solid #ffc861a9;
+}
+
+header a:first-child {
+    margin-left: 0;
+}
+
+.main {
+    justify-content: left;
+}
+
+.main > ul > li > a{
+    font-size: x-large;
+}
+
+footer a{
+    font-size: medium;
+}

@@ -58,6 +58,7 @@ header a:nth-child(2) {
     display: grid;
     justify-items: center;
     text-align: center;
+    align-content: space-evenly;
 }
 
 .dedeux {
@@ -75,7 +76,7 @@ header a:nth-child(2) {
 }
 
 .main>.imgdeux {
-    width: 80%;
+    width: 50%;
 }
 
 svg {
