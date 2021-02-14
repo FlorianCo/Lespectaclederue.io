@@ -51,6 +51,9 @@ header a:first-child {
     align-items: center;
     justify-items: space-around;
     margin: 0 50px 0 50px;
+    margin-top: 10px;
+    background-size: 100% 80%;
+    min-height: 100vh;
 }
 
 .prese {
@@ -68,7 +71,13 @@ header a:first-child {
 
 .main>p {
     margin: 40px;
+    width: 60%;
+}
 
+.dedeux>p {
+    /* transform: translateX(100%); */
+    position: absolute;
+    right: 0;
 }
 
 .main>.imgdeux {
@@ -81,10 +90,10 @@ header a:first-child {
     right: 0;
 }
 
-svg:hover{
+svg:hover {
     opacity: 1;
 }
 
-footer a{
+footer a {
     font-size: medium;
 }

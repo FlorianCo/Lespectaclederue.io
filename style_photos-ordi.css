@@ -55,14 +55,14 @@ main > div > .overnom {
     top: 0;
     left: 0;
     opacity: 0;
-    background-color: rgba(212, 225, 245, 0.8);
-    display: flex;
+    /* background-color: rgba(212, 225, 245, 0.8);
+    display: flex; */
 }
 
-main > div > .overnom > h1{
+/* main > div > .overnom > h1{
     margin: auto;
     color: #535353;
-}
+} */
 
 main > div > .overnom:hover {
     opacity: 1;

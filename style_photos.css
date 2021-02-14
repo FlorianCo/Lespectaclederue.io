@@ -32,7 +32,7 @@ header {
     padding: 5px;
     position: absolute;
     top: 35px;
-    bottom: 80%;
+    /* bottom: 80%; */
     left: 0;
     right: 36px;
     background-color: #EBE3DC;
@@ -52,12 +52,14 @@ header a:nth-child(3) {
 main {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 main div {
     position: relative;
     /* margin: 5px; */
+    margin-bottom: 15px;
     width: 250px;
     height: 100%;
 }
@@ -87,4 +89,13 @@ footer a {
 
 footer a:nth-child(2) {
     margin-left: auto;
+}
+
+main > div > .overnom {
+    background-color: rgba(212, 225, 245, 0.8);
+    display: flex;
+}
+
+main > div > .overnom > h1{
+    margin: auto;
 }

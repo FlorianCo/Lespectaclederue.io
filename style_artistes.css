@@ -32,7 +32,7 @@ header {
     padding: 5px;
     position: absolute;
     top: 35px;
-    bottom: 80%;
+    /* bottom: 80%; */
     left: 0;
     right: 36px;
     background-color: #EBE3DC;
@@ -77,6 +77,10 @@ header a:nth-child(2) {
 
 .main>.imgdeux {
     width: 50%;
+}
+
+.main>.imgdeux[src="fille1.jpg"] {
+    width: 70%;
 }
 
 svg {
