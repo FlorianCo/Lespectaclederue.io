@@ -1,12 +1,13 @@
 html {
     scroll-behavior: smooth;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: rouge sans;
+    font-weight: 100;
 }
 
 body {
     margin: 0;
     position: relative;
-    background-color: #fcf9f7;
+    background-color: #f4d59a7c;
 }
 
 input[type=checkbox] {
@@ -47,6 +48,7 @@ header a {
 
 header a:first-child {
     border-bottom: 3px solid #b99148;
+    color: #8EA021;
 }
 
 .main {
@@ -77,7 +79,7 @@ header a:first-child {
 
 .prese div > span{
     font-size: larger;
-    color: green;
+    color: #d98626;
 }
 
 .dedeux {
