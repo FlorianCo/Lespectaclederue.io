@@ -35,18 +35,8 @@ header a:first-child {
     margin-left: 0;
 }
 
-/* main {
-    scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y mandatory;
-} */
-
-/* .child {
-    scroll-snap-align: start;
-} */
-
 .main {
-    background: none;
+
     display: flex;
     align-items: center;
     justify-items: space-around;
@@ -56,42 +46,32 @@ header a:first-child {
     min-height: 100vh;
 }
 
+.premier{
+    min-height: 30vh;
+}
+
 .prese {
     background-size: 90% 56%;
     background-position: center;
     font-size: 45px;
 }
 
-.main>img:nth-child(1) {
-    width: 70%;
+.main>img {
+    width: 40%;
     z-index: -1;
-    position: absolute;
     display: initial;
-}
+} 
 
 .main>p {
     margin: 40px;
     width: 60%;
+        /* background: none; */
 }
 
 .dedeux>p {
     /* transform: translateX(100%); */
     position: absolute;
     right: 0;
-}
-
-.main>.imgdeux {
-    width: 50%;
-    height: 50%;
-}
-
-.dedeux>img:nth-child(1) {
-    position: absolute;
-    right: 0;
-}
-
-svg:hover {
-    opacity: 1;
 }
 
 footer a {
