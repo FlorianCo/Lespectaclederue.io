@@ -21,12 +21,12 @@ input[type=checkbox]:checked+header {
 label {
     margin: 10px;
     font-size: 25px;
-    font-family: papyrus;
+    /*font-family: papyrus;*/
     color: #535353;
 }
 
 header {
-    font-family: papyrus;
+    /*font-family: papyrus;*/
     z-index: 4;
     display: grid;
     padding: 5px;

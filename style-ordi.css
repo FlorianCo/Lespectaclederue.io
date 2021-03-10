@@ -51,7 +51,7 @@ header a:first-child {
 }
 
 .prese {
-    background-size: 90% 56%;
+    /* background-size: 90% 56%; */
     background-position: center;
     font-size: 45px;
 }

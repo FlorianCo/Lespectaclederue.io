@@ -20,12 +20,12 @@ input[type=checkbox]:checked+header {
 label {
     margin: 10px;
     font-size: 25px;
-    font-family: papyrus;
+    /*font-family: papyrus;*/
     color: #535353;
 }
 
 header {
-    font-family: papyrus;
+    /*font-family: papyrus;*/
     z-index: 4;
     display: grid;
     padding: 5px;
@@ -53,8 +53,8 @@ header a:nth-child(2) {
     margin-top: 10px;
     position: relative;
     min-height: 100vh;
-    background: url("Image 1.png") no-repeat;
-    background-size: 100% 80%;
+    /* background: url("Image 1.png") no-repeat; */
+    /* background-size: 100% 80%; */
     display: grid;
     justify-items: center;
     text-align: center;
@@ -65,14 +65,16 @@ header a:nth-child(2) {
     background-position: bottom;
 }
 
-.main>img:nth-child(1) {
-    display: none;
+.main>img {
+    width: 70%;
 }
 
 .main>p {
     margin: 5px;
     max-width: 100%;
     font-size: 23px;
+    background-color: #f4D29A;
+    padding: 20px;
 }
 
 .main>.imgdeux {
