@@ -91,3 +91,33 @@ svg:hover{
 footer a{
     font-size: medium;
 }
+.mob{
+    display: none;
+}
+.ord{
+    display: flex;
+    position: relative;
+    /* justify-content: space-evenly */
+    width: 75%;
+    margin: auto;
+}
+.mois{
+    text-align: end;
+    margin-left: 110px;
+}
+.lieux{
+    text-align: start;
+    margin-left: auto;
+}
+.trait{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    height: 100%;
+    width: 20px !important;
+    background-color: #000;
+}
+.hh{
+    margin: 50px;
+    display: initial;
+}
