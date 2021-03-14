@@ -92,10 +92,13 @@ footer a:nth-child(2) {
 }
 
 main > div > .overnom {
-    background-color: rgba(212, 225, 245, 0.8);
+    /* background-color: rgba(212, 225, 245, 0.8); */
+    /* v2 */
+    background-color: #8e1a02;
     display: flex;
 }
 
 main > div > .overnom > h1{
     margin: auto;
+    font-size: 1em;
 }
