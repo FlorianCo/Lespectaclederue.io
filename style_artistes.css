@@ -36,7 +36,7 @@ label {
 }
 
 header {
-    /*font-family: papyrus;*/
+    height: 90vh;
     z-index: 4;
     display: grid;
     padding: 5px;
@@ -53,6 +53,11 @@ header {
 
     align-items: center;
     font-size: larger;
+}
+
+header img{
+    width: 50%;
+    margin: auto;
 }
 
 header a {

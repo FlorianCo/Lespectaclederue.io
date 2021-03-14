@@ -7,6 +7,7 @@ label {
 }
 
 header {
+    height: initial;
     font-size: larger;
     transform: translate(0);
     display: flex;
@@ -14,6 +15,17 @@ header {
     background: none;
     position: initial;
 }
+
+header img{
+    background-color: #8E1a02;
+    width: 5%;
+    margin: initial;
+    /* margin-left: 30%; */
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+}
+
 
 header a {
     margin-left: 30px;

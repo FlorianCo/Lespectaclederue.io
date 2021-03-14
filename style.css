@@ -35,13 +35,13 @@ label {
 }
 
 header {
-    /*font-family: papyrus;*/
+    height: 90vh;
     z-index: 4;
     display: grid;
     padding: 5px;
     position: absolute;
     top: 35px;
-    bottom: 85%;
+    /* bottom: 85%; */
     left: 0;
     right: 36px;
     /* V1 */
