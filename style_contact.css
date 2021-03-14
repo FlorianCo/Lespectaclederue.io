@@ -31,11 +31,14 @@ header {
     padding: 5px;
     position: absolute;
     top: 35px;
-    /* bottom: 80%; */
+    bottom: 13%;
     left: 0;
     right: 36px;
     background-color: #EBE3DC;
     transform: translateX(-100%);
+
+    align-items: center;
+    font-size: larger;
 }
 
 header a {

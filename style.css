@@ -68,6 +68,11 @@ header a:first-child {
     color: #8EA021;
 }
 
+header img{
+    width: 50%;
+    margin: auto;
+}
+
 .main {
     margin-top: 50px;
     position: relative;

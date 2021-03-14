@@ -6,7 +6,12 @@ html {
 body {
     margin: 0;
     position: relative;
-    background-color: #f4d59a7c;}
+    /* V1 */
+    background-color: #f4d59a7c;
+    /* V2 */
+    /* background-color: rgb(10, 10, 10); */
+
+}
 
 input[type=checkbox] {
     display: none;
@@ -14,14 +19,20 @@ input[type=checkbox] {
 
 input[type=checkbox]:checked+header {
     transform: translateX(0);
+    /* V1 */
     box-shadow: rgba(0, 0, 0, 0.568) 17px 10px 6px;
+    /* V2 */
+    /* box-shadow: #f4d59a4b 17px 10px 6px; */
 }
 
 label {
     margin: 10px;
     font-size: 25px;
     /*font-family: papyrus;*/
+    /* V1 */
     color: #535353;
+    /* V2 */
+    /* color: rgb(230, 222, 222); */
 }
 
 header {
@@ -31,17 +42,25 @@ header {
     padding: 5px;
     position: absolute;
     top: 35px;
-    /* bottom: 80%; */
+    bottom: 85.5%;
     left: 0;
     right: 36px;
+    /* V1 */
     background-color: #EBE3DC;
+    /* V2 */
+    /* background-color: #272727; */
     transform: translateX(-100%);
+
+    align-items: center;
+    font-size: larger;
 }
 
 header a {
     margin: 15px;
     text-decoration: none;
+    /* V1 */
     color: #535353;
+    /* color: rgb(230, 222, 222); */
 }
 
 header a:nth-child(2) {
@@ -73,8 +92,15 @@ header a:nth-child(2) {
     margin: 5px;
     max-width: 100%;
     font-size: 23px;
+    /* V1 */
     background-color: #f4D29A;
-    padding: 20px;
+    /* V2 */
+    /* background: black;
+    color: rgb(230, 222, 222);
+    border: #8e190294 solid 1px; */
+
+
+    padding: 40px;
 }
 
 .main>.imgdeux {
