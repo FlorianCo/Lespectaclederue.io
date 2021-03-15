@@ -112,3 +112,21 @@ footer a:nth-child(2){
 .hh{
     display: none;
 }
+
+.imgdatesmob{
+    display: flex;
+
+    background: url("photo_contact.jpg") no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.imgdatesord{
+    display: none;
+}
+.imgdates>img{
+    width: 70%;
+    margin: auto;
+}

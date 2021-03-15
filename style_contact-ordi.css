@@ -121,3 +121,18 @@ footer a{
     margin: 50px;
     display: initial;
 }
+
+.imgdatesord{
+    display: flex;
+
+    background: url("photo_contact.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.imgdatesmob{
+    display: none;
+}
+.imgdates>img{
+    width: 40%;
+}
